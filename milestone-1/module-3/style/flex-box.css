@@ -3,3 +3,43 @@ h1{
     text-align: center;
     text-decoration: underline;
 }
+.flex-container{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: azure;
+    border: 1px solid grey;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+.flex-item-1{
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+}
+.flex-item-2{
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+}
+.flex-item-1{
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+}
+.flex-item-2{
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+}
+.flex-item-1{
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+}
+.flex-item-2{
+    background-color: cyan;
+    width: 100px;
+    height: 150px;
+}
