@@ -1,0 +1,59 @@
+/* background image */
+body{
+    background-image: url('../module-2/images/neon\ light\ effect.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div a[href]{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+div a[href$="org"]{
+   color: rebeccapurple;
+}
+
+/* programming-hero */
+div a[href^="httpss"]{
+    color: orangered;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(247, 215, 39, 0.87);
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 1px  2px 5px ;
+}
+/* pesudo class selector */
+div a[href^="httpss"]:hover{
+    color: rgb(0, 26, 255);
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(247, 215, 39, 0.87);
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 1px  2px 5px ;
+    transition: 1s;
+}
+
+div a[href*="oo"]{
+    text-decoration: none;
+}
+div a[href~="khan"]{
+    font-size: 3rem;
+    color: rgb(35, 167, 35);
+}
+div a[target=_blank]{
+    font-style: italic;
+}
+div a[href^="hot"][href$="org"]{
+    color: magenta;
+}
+
+/* pesudo element selctor */
+div p::first-letter{
+    font-size: 5rem;
+}
+
+.anchor p{
+    color: #fff;
+}
